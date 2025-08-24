@@ -3,5 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello world")
+	var i int = 20
+	fmt.Println("i =", i)
+
+	var f float64 = float64(i)
+	fmt.Println(i, f)
 }
+
+
